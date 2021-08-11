@@ -1,0 +1,134 @@
+body{
+	/*background-color: #191970;*/	/*default: Midnight blue*/
+	/*background: linear-gradient(to bottom right, rgba(0,0,0,1), rgba(138,43,226,1));*/
+	background: linear-gradient(to bottom right, rgba(0,0,0,1), rgba(0,0,128,1));
+	
+
+}
+
+.background_whole{
+
+	/*width: 80%;*/
+	width: 1280px;
+	/*height: 2560px;*/
+	height: 2350px;
+	margin: 100px auto;
+	/*border: solid 1px black;*/
+	background-color: rgba(0,0,0,1);
+	
+}
+
+.picture_main{
+	/*height: 25%;*/
+	width: 1280px;
+	height: 640px;
+	background-color: white;
+	background: url("../images/Advanced Technology.png") center /cover;
+	/*background: center /cover;*/
+	margin: 0;
+	padding: 0;
+	/*opacity: 0.8;*/
+	transition: 0.5s;
+}
+
+.swiper-container{
+	width: 1280px;
+	height: 640px;
+}
+
+
+.left_nav{
+	display: inline-block;
+	float: left;
+	box-sizing: border-box; /* includes padding and border in width */
+	/*width: 20%;*/
+	width: 256px;
+	height: calc(2350px - 640px - 30px); /*25px: for footer*/
+	background-color: rgba(0,0,255,0.2);
+	/*border: 2px solid red;*/
+	padding-top: 20px;
+	border: 0;
+	text-align: center;
+	/*font-family: 'Indie Flower', cursive;*/
+}
+
+.left_nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.left_nav li{
+	margin: 30px 0px;
+}
+
+.left_nav a{
+	text-decoration: none;
+	color: white;
+	/*font: bold 15px Tahoma;*/
+	font: bold 15px 'Maven Pro', sans-serif;
+	/*font-family: 'Maven Pro', sans-serif;*/
+}
+
+.left_nav a:hover{
+	color: rgba(150,150,150,1);	
+}
+
+.left_nav li:hover{
+	background-color: rgba(106,90,205,0.3)
+}
+
+.right_contents{
+	box-sizing: border-box; /* includes padding and border in width */
+	display: inline-block;
+	float: left;
+	/*width: 80%;*/
+	width: 1024px;
+	height: calc(2350px - 640px - 30px); /*25px: for footer*/
+	background-color: ivory;
+	/*background-color: red;*/
+	padding: 20px 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.bottom_footer{	
+	box-sizing: border-box; /* includes padding and border in width */
+	display: inline-block;	
+	float: left;
+	background-color: black;		
+	height: 30px;
+	width: 100%;
+	margin: 0;
+	padding: 5px 0px;	/*it does not work. Why?*/
+	font-family: 'Maven Pro', sans-serif;
+}
+
+.bottom_footer footer{	
+	/*background-color: black;*/
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.logo{
+	height: 15px;
+	width: 15px;
+}
+
+div iframe{
+	width: 100%;
+	height: 1400px; /*2000px-25%-30px=1470px. 70px: top/bottom padding*/
+	text-align: middle;	
+	margin: 0px 0px;
+	overflow: scroll;
+}

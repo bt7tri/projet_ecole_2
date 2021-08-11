@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	
+	<link rel="stylesheet" href="assets/css/contents.css">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700&amp;subset=latin-ext,vietnamese" rel="stylesheet"> <!--Google Font-->
+
+</head>
+<body>  
+	
+	<!-- <h2>Contact</h2> -->
+	<div id="loading-area"> <!-- id should be "loading-area" to show the contents of this tag can be seen in the div with id=
+	                     		 "contents_html", and if I assign the same id to body, it does not work. -->
+		<form action="#" method="GET">
+			<label for="name">
+				Name
+			</label>
+			<!-- <input type="text" name="name" id="name" placeholder="your name" required> -->
+			<input type="text" name="name" id="name" required>
+			
+			<label for="phone">
+				Phone
+			</label>
+			<input type="tel" name="phone" id="phone">
+
+			<label for="email">
+				Email
+			</label>
+			<input type="email" required name="email" id="email">
+		
+			<label for="message">
+				Message
+			</label>
+			<textarea name="message" id="message"></textarea>
+
+			<div class="left">
+			<!-- Reset = reset all to zero -->
+				<input type="reset" value="Reset">
+			</div>
+			<div class="right">
+				<input type="submit" value="Submit">
+			</div>
+
+		</form>
+	</div>
+
+</body>
+</html>

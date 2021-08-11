@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Advanced technology</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/contents.css">
+	<link rel="stylesheet" href="assets/css/contact.css">
+	<link rel="stylesheet" href="assets/css/accueil.css">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700&amp;subset=latin-ext,vietnamese" rel="stylesheet"> <!--Google Font-->
+
+		 <!-- for swiper slider-->
+
+	<!-- <script type='text/javascript'>
+		
+		function change_image()
+		{
+			var i;
+			var max=4;
+
+			for (i=0; i<4; i++)
+			{
+				setTimeout(diff_image(i), 3000);	// call diff_image after 3000ms	
+			}
+			
+		}
+		
+		function diff_image(index)
+		{
+
+			// var image=document.getElementById("picture_main");
+			// var image_src=document.getElementById("picture_main").src;
+			// var image_1="assets/images/Advanced Technology.png";
+			// var image_2="assets/images/robocop_main.jpg";
+			// var image_3="assets/images/artificial_meat_main.jpg";
+			// var image_4="assets/images/3dprinting_house_main.jpg";
+			
+			// var image_array=new Array(image_1, image_2, image_3, image_4);
+			// var max=image_array.length;
+
+			switch (index)
+			{
+				case 0:
+					// image.src=image_2;
+					document.getElementById("picture_main").src="assets/images/robocop_main.jpg";
+					break;
+				case 1:
+					// image.src=image_3;
+					document.getElementById("picture_main").src="assets/images/artificial_meat_main.jpg";
+					break;
+				case 2:
+					// image.src=image_4;
+					document.getElementById("picture_main").src="assets/mages/3dprinting_house_main.jpg";					
+					break;
+				case 3:
+					// image.src=image_1;
+					document.getElementById("picture_main").src="assets/images/Advanced Technology.png";
+					break;
+			}
+
+
+			// image_box.src=image_array[i];
+			
+		}
+
+	</script> -->
+
+</head>
+<body>
+	<div class="background_whole">
+		<div class="picture_main swiper-container">
+			
+			    <div class="swiper-wrapper">
+		        	<!-- Slides -->
+        			<div class="swiper-slide">
+        				<img src="assets/images/Advanced_Technology.png" alt="main picture">
+        			</div>
+        			<div class="swiper-slide">
+        				<img src="assets/images/robocop_main.jpg" alt="main picture">
+        			</div>
+        			<div class="swiper-slide">
+        				<img src="assets/images/artificial_meat_main.jpg" alt="main picture">
+        			</div>
+        			<div class="swiper-slide">
+        				<img src="assets/images/3dprinting_house_main.jpg" alt="main picture">
+        			</div>
+        	    </div>
+        	    <div class="swiper-pagination"></div>
+			<!-- <img id="picture_main" src="assets/images/Advanced Technology.png" alt="main picture">-->
+		</div> 
+
+		<div class="left_nav">	 <!-- Question: If I set background color with transparency, some strange parts shows.-->
+			<nav>
+				<ul class="clearfix">
+					<li>
+						<!-- <a href="#" onclick="show_html_in_Page('contents_html', 'home');">Home</a> -->
+						<a href="accueil.html">Home</a>
+					</li>				
+					<li>
+						<a href="robot.html">Humanoid AI Robot<br>-Robocop-</a>
+						<!-- <a href="#" onclick="document.getElementById('contents_html').src='robot.html'">
+						Humanoid AI Robot<br>-Robocop-</a> -->
+						<!-- <a href="#" onclick="test();">Humanoid AI Robot<br>-Robocop-</a> -->
+						
+					</li>
+					<li>
+						<a href="artificial_meat.html">Artificial Meat</a>
+						<!-- <a href="#" onclick="show_html_in_Page('contents_html', 'ameat');">Artificial Meat</a> -->
+					</li>
+					<li>
+						<!-- <a href="#" onclick="show_html_in_Page('contents_html', 'printhouse');">3D Printing House</a> -->
+						<a href="3dprinting_house.html">3D Printing House</a>
+					</li>
+					<li>
+						<!-- <a href="#" onclick="document.getElementById('contents_html').src='contact.html'">Contact</a> -->
+						<a href="contact.html">Contact</a>
+					</li>					
+				</ul>
+			</nav>
+		</div>
+		
+		<div class="right_contents">
+			
+			<div id="contents_html"></div>
+			
+		</div>
+		
+		<div class="bottom_footer">
+			<footer>
+				<img class="logo" src="assets/logo/logo_ksi.png" alt="ksi_logo">&nbsp;
+				Copyright &copy; 2018 Project in Module 6 Herzing | Designed by Seongil Kim
+			</footer>
+		</div>
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+	<script type='text/javascript' src="assets/scripts/script.js"></script>
+
+	<script type='text/javascript' src="script_contents.js"></script>
+
+	<script type='text/javascript'>
+		
+		function change_image()
+		{
+			var i;
+			var max=4;
+
+			/*for (i=0; i<4; i++)
+			{*/
+				setInterval(diff_image, 3000);	// call diff_image after 3000ms	
+			/*}*/
+			
+		}
+		
+		
+	</script>
+
+	<!-- for including swiper slider -->
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<home>
+https://list25.com/25-cutting-edge-technologies-that-will-change-the-world/
+
+<robocop>
+https://www.forbes.com/sites/susannahbreslin/2017/06/03/robot-cop-dubai/#881c8176872b
+
+http://www.newsweek.com/robot-cop-deployed-dubai-614943
+
+https://www.cnn.com/2017/05/22/tech/robot-police-officer-future-dubai/index.html
+
+https://www.wired.com/2016/07/11-police-robots-patrolling-around-world/
+
+Artificial meat factory
+http://www.sciencefocus.com/article/future/artificial-meat-factory
+
+http://www.biggiesboxers.com/scientists-feverishly-working-to-develop-artificial-meat-as-biotech-industrys-next-big-product/
+
+http://sitn.hms.harvard.edu/flash/2011/issue90/
+
+Inside the meat lab: the future of food
+https://www.theguardian.com/science/2013/jan/05/the-future-of-food
+
+3d
+https://fabweb.org/2018/03/19/first-3d-printed-house/
+
+https://singularityhub.com/2018/03/18/this-3d-printed-house-goes-up-in-a-day-for-under-10000/#sm.0000of829b1dradgpvl2ygkw4lay4
+
+https://en.wikipedia.org/wiki/Construction_3D_printing
+
+reference of design
+https://blog.naver.com/bug_master/221187072366
+
+history of 3d printed building
+https://connect.bim360.autodesk.com/3d-printing-in-construction
+
+THE QUEST TO BRING 3-D-PRINTED HOMES TO THE DEVELOPING WORLD
+https://www.wired.com/story/new-story-3-d-printed-house/
+
+This House Can Be 3D-Printed For $4,000
+https://www.fastcompany.com/40538464/this-house-can-be-3d-printed-for-4000
+
+3D printed house: How additive manufacturing is helping to build homes
+https://www.sculpteo.com/blog/2018/02/14/3d-printed-house-how-additive-manufacturing-is-helping-to-build-homes/
+
+<for the advanced>
+https://www.w3schools.com/bootstrap/bootstrap_tabs_pills.asp
+
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_tab&stacked=h
+
+https://www.w3schools.com/bootstrap/bootstrap_ref_js_tab.asp
+
+Web Server for Chrome
+https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/related?hl=en
+
+https://cdnjs.com/libraries/jquery/
+
+https://css-tricks.com/ajax-load-container-contents/
+
+https://css-tricks.com/dynamic-page-replacing-content/
+
+https://getbootstrap.com/docs/3.3/javascript/#tabs
+
+<jquery slider>
+http://kenwheeler.github.io/slick/
+http://flexslider.woothemes.com/
+https://owlcarousel2.github.io/OwlCarousel2/
+http://idangero.us/swiper/demos/
+https://github.com/nolimits4web/Swiper/blob/master/demos/050-pagination-progress.html
+
+<change title using javascript>
+https://www.xpressengine.com/tip/16872231

@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	/*min-width: 100vw;
+	min-height: 100vh;*/
+	position: relative;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+
+
+form{
+	width: 700px;
+	max-width: 100%;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+label{
+	margin-top: 20px;
+}
+
+input:not([type="radio"]):not([type="checkbox"]),
+select,
+textarea{
+	display: block;	/*if display option is set block, next block is placed below the previous block.*/
+	/*margin: 5px 0 20px;*/
+	margin: auto;
+	width: 50%;
+	border: 0px;
+    border-bottom: 1px solid #666;
+    padding: 10px 0;
+    background: transparent;
+    transition: border 0.5s;
+    align-content: center;
+}
+
+textarea{
+	display: block;
+	/*margin: 5px 0 20px;*/
+	margin: auto;
+	width: 50%;
+	height: 150px;
+	border: 0;
+    border-bottom: 1px solid #666;
+    padding: 10px 0;
+    background: transparent;
+    transition: border 0.5s;
+}
+
+textarea:focus{
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid royalblue;
+}
+
+
+textarea:invalid{	/*Refer to https://www.w3schools.com/cssref/css_selectors.asp*/
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid firebrick;
+}
+
+
+.left{
+	position: relative;
+	left: 80px;
+	box-sizing: border-box; /* includes padding and border in width */
+	width: 50%;
+	float: left;
+	padding: 50px 15px;
+	/*border: 1px solid;*/
+}
+
+.right{
+	position: relative;
+	right: 80px;
+	box-sizing: border-box; /* includes padding and border in width */
+	width: 50%;
+	float: left;
+	padding: 50px 15px;
+	/*border: 1px solid;*/
+}
+
+/*input[type="reset"]{
+	position: relative;
+	right: 10px;
+}
+
+input[type="submit"]{
+	position: relative;	
+	left: 10px;
+}*/
+
+
+
+.whole-div{
+	position: relative;
+	width: 50%;
+	margin: auto;
+	margin-top: 50px;
+	background-color: blue;
+}
